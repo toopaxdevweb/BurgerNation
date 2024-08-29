@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>burgerNation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hamburger.css">
+</head>
+<body>
+    
+
+   <header>
+    <nav>
+     
+        <img src="/images/logo-BurgerNation.png" alt="logo-BurgerNation">
+      
+        <button class="hamburger__toggle">
+        <span class="hamburger__icon"></span>
+        </button>
+        <ul class="menu" id="menu">
+        <li><a href="#">La carte</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Réserver</a></li>
+        <li class="menu-icons" id="menu-icons">
+            <a href="#" class="icons"><img src=/images/user-solid.svg alt="User-solid"></a>
+            <a href="#" class="icons"><img src=/images/cart.svg alt="Cart"></a>
+            <a href="#" class="icons"><img src=/images/loupe.svg alt="Search"></a>
+            <a href="#" class="click-collect"><img src=/images/panier.svg alt="Click&Collect">Click&Collect</a>
+        </li>
+        </ul>
+      
+    </nav>
+
+<div class="container">
+    <div class="textCarousell ">
+    <h1>Fast Food <br> Restaurant</h1>
+    <p class="paraCarousellUn">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, eos temporibus. Voluptatum at ut deserunt deleniti assumenda harum, quia in. Saepe labore illo consequatur ullam repudiandae iusto reprehenderit deleniti numquam!</p>
+    <a href="#" class="command">Commander</a>
+    </div>
+
+    <div class="carousellText2 hidden">
+    <h1>Bio Food <br> Restaurant</h1>
+    <p class="paraCarousellDeux">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, eos temporibus. Voluptatum at ut deserunt deleniti assumenda harum, quia in. Saepe labore illo consequatur ullam repudiandae iusto reprehenderit deleniti numquam!</p>
+    <a href="#" class="command">Commander</a>
+    </div>
+
+    <div class="carousellText3 hidden">
+    <h1>Diet Food <br> Restaurant</h1>
+    <p class="paraCarousellDeux">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, eos temporibus. Voluptatum at ut deserunt deleniti assumenda harum, quia in. Saepe labore illo consequatur ullam repudiandae iusto reprehenderit deleniti numquam!</p>
+    <a href="#" class="command">Commander</a>
+    </div>
+    
+   
+      <div class="pagination">
+          <div class="dot active" data-index="0"></div>
+          <div class="dot" data-index="1"></div>
+          <div class="dot" data-index="2"></div>
+      </div>
+      </div>
+    </header>
+
+    <div class="card">
+      <div class="card-image">
+          <img src="/images/o1.jpg" alt="Tasty Thursdays">
+      </div>
+      <div class="card-content">
+          <h2>Tasty Thursdays</h2>
+          <p class="discount">20% <span>de réduction</span></p>
+          <button>Je commande <i class="fas fa-shopping-cart"></i></button>
+      </div>
+  </div>
+
+  <div class="card">
+      <div class="card-image">
+          <img src="/images/o2.jpg" alt="Pizza Days">
+      </div>
+      <div class="card-content">
+          <h2>Pizza Days</h2>
+          <p class="discount">15% <span>de réduction</span></p>
+          <button>Je commande <i class="fas fa-shopping-cart"></i></button>
+      </div>
+  </div>
+</div>
+
+<div class="laCarte">
+<h1> La carte</h1>
+</div>
+<div id="filters" class="button-group">  
+  <button class="button is-checked" data-filter="*">Tous</button>
+  <button class="button" data-filter=".Burger">Burger</button>
+  <button class="button" data-filter=".Pizza">Pizzas</button>
+  <button class="button" data-filter=".Pâtes">Pâtes</button>
+  <button class="button" data-filter=".Frites">Frites</button>
+</div>
+
+<div class="grid">
+
+    <div class="plats element-item Pizza">
+    <img src="/images/f1.png" alt="DeliciousPizza1">
+   
+    <h2>Delicious Pizza</h2>
+    <p class="description">Lorem ipsum dolor sit, amet consectetur
+       adipisicing elit. Suscipit eaque consequatur ratione 
+       quod cupiditate?</p>
+       <p> 20€ </p>
+    </div>
+
+ 
+
+    <div class="plats element-item Burger">
+    <img src="/images/f2.png" alt="DeliciousBurger">
+   
+      <h2>Delicious Burger</h2>
+      <p class="description">Lorem ipsum dolor sit, amet consectetur
+         adipisicing elit. Suscipit eaque consequatur ratione 
+         quod cupiditate?</p>
+         <p> 15€ </p>
+    </div>
+  
+ 
+
+    <div class="plats element-item Pizza">
+      <img src="/images/f3.png" alt="DeliciousPizza2">
+ 
+        <h2>Delicious Pizza</h2>
+        <p class="description">Lorem ipsum dolor sit, amet consectetur
+           adipisicing elit. Suscipit eaque consequatur ratione 
+           quod cupiditate?</p>
+           <p> 17€ </p>
+      </div>
+    
+
+      <div class="plats element-item Pâtes">
+        <img src="/images/f4.png" alt="DeliciousPasta">
+    
+          <h2>Delicious Pasta</h2>
+          <p class="description">Lorem ipsum dolor sit, amet consectetur
+             adipisicing elit. Suscipit eaque consequatur ratione 
+            quod cupiditate?</p>
+            <p> 18€ </p>
+      </div>
+    
+
+        <div class="plats element-item Frites">
+          <img src="/images/f5.png" alt="FrenchFries">
+        
+            <h2>French Fries</h2>
+            <p class="description">Lorem ipsum dolor sit, amet consectetur
+               adipisicing elit. Suscipit eaque consequatur ratione 
+               quod cupiditate?</p>
+               <p> 10€ </p>
+            
+        </div>
+
+
+  
+
+    <div class="plats element-item Pizza">
+    <img src="/images/f6.png" alt="DeliciousPizza3">
+   
+      <h2>Delicious Pizza</h2>
+      <p class="description">Lorem ipsum dolor sit, amet consectetur
+         adipisicing elit. Suscipit eaque consequatur ratione 
+         quod cupiditate?</p>
+         <p> 15€ </p>
+    </div>
+  
+
+    <div class="plats element-item Burger">
+      <img src="/images/f7.png" alt="TastyBurger1">
+    
+        <h2>Delicious Burger</h2>
+        <p class="description">Lorem ipsum dolor sit, amet consectetur
+           adipisicing elit. Suscipit eaque consequatur ratione 
+           quod cupiditate?</p>
+           <p> 12€ </p>
+
+      </div>              
+    
+      <div class="plats element-item Burger">
+      <img src="/images/f8.png" alt="TastyBurger2">
+      
+          <h2>Delicious Burger</h2>
+          <p class="description">Lorem ipsum dolor sit, amet consectetur
+             adipisicing elit. Suscipit eaque consequatur ratione 
+             quod cupiditate?</p>
+             <p> 14€ </p>
+        </div>
+      >
+
+        <div class="plats element-item Pâtes">
+          <img src="/images/f9.png" alt="DeliciousPasta2">
+        
+            <h2>Delicious Burger</h2>
+            <p class="description">Lorem ipsum dolor sit, amet consectetur
+               adipisicing elit. Suscipit eaque consequatur ratione 
+               quod cupiditate?</p>
+               <p> 10€ </p>
+          </div>
+        
+  </div>
+
+        <div class="InfoBurger">
+
+          <h1>BurgerNation,<br>c'est...</h1>
+
+          <p>here are many variations of passages of Lorem Ipsum available, but t
+            he majority have suffered alteration in some form, by injected humour, or 
+            randomised words which don't look even slightly believable. If you are 
+            going to use a passage of Lorem Ipsum, you need to be sure there isn't 
+            anything embarrassing hidden in the middle of text. All</p>
+        </div>
+       
+  <form action="" class="form">
+      
+          <input type="text" placeholder="Votre Nom" class="form__input" id="name" />
+          <label for="name" class="form__label"></label>
+    
+          
+      
+      <input type="text" placeholder="Votre Téléphone" class="form__input" id="name" />
+      <label for="telephone" class="form__label"></label>
+
+      <input type="email" placeholder="Votre Email" class="form__input" id="email" />
+      <label for="email" class="form__label"></label>
+
+      <input type="number" placeholder="Nombre de personnes" class="form__input" id="subject" />
+      <label for="subject" class="form__label"></label>
+
+      <input type="date" placeholder="jj/mm/aaaa" class="form__input" id="name" />
+      <label for="name" class="form__label"></label>
+  </form>
+      <button>Réserver <i class="fas fa-shopping-cart"></i></button>
+      <div id="map">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92456.82685645988!2d1.3504422407596535!3d43.60079797411193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebb6fec7552ff%3A0x406f69c2f411030!2sToulouse!5e0!3m2!1sfr!2sfr!4v1724936028978!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+   
+        
+
+
+       
+  
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+</body>
+</html>
